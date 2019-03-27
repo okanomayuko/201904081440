@@ -15,7 +15,7 @@
 				);
 				$(window).on("load", function() {
 					$('body').delay(100).fadeIn("750");
-					$('.toplogo').delay(750).fadeIn("3000");
+					$('.toplogo').delay(500).fadeIn("3000");
 				});
 			var now_hour = new Date().getHours();
 			    if ( 0 <= now_hour && now_hour <= 4 ){
@@ -29,10 +29,6 @@
 			    } else if ( 20 <= now_hour && now_hour <= 23) {
 			        $('main').css('background','pink');
 		    }
-		});
-
-		$(function(){
-		    
 		});
 	</script>
 	<link rel="stylesheet" href="css/reset.css" />
