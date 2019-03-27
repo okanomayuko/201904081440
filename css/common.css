@@ -41,7 +41,6 @@ nav {
 }
 #navlogo {
 	width: 1.5%;
-	transform: rotate(-90deg);
 }
 .clone-nav {
   transform: translateY(-100%);
