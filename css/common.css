@@ -52,6 +52,7 @@ nav {
 
 section {
 	min-height: 100vh;
+	background: pink;
 }
 footer {
 	background: #ECEADE;
