@@ -50,6 +50,9 @@ nav {
 .is-show {
   transform: translateY(0);
 }
+.flexbox{
+    display: flex;
+}
 
 section {
 	min-height: 100vh;
