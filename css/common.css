@@ -60,12 +60,18 @@ section {
 	min-height: 100vh;
 	background: pink;
 }
+content {
+	width: 970px;
+	margin: 0 auto;
+}
 .content_box {
+	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
 }
 .content_item {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	margin: 10px;
 	background: #fff;
 }
