@@ -67,12 +67,12 @@ article {
 .content_box {
 	list-style: none;
 	display: flex;
+	justify-content:space-between;
 	flex-wrap: wrap;
 }
 .content_item {
 	width: 200px;
 	height: 200px;
-	margin: 10px;
 	background: #fff;
 }
 
