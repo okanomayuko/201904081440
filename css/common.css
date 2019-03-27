@@ -30,7 +30,8 @@ h1 {
 }
 
 #navlogo {
-	transform: rotate(90deg)
+	height: 10px;
+	transform: rotate(90deg);
 }
 
 footer {
