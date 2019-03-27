@@ -1,0 +1,21 @@
+
+main {
+	width: 100vw;
+		height: auto;
+		min-height: 100vh;
+		display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #FFFDF2;
+}
+h1 {
+	display: none;
+}
+.toplogo path {
+	color: #fff;
+	fill: currentColor;
+}
+.toplogo {
+	width: 2.3%;
+	height: auto;	
+}
