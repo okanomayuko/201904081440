@@ -51,6 +51,7 @@ nav {
 .navbox{
     display: flex;
     margin: auto; 
+    align-items: flex-end;
 
 }
 
