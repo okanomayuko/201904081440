@@ -16,7 +16,6 @@ main {
 	100%{background-position:0% 50%}
 	}
 
-
 h1 {
 	display: none;
 }
@@ -29,9 +28,12 @@ h1 {
 	height: auto;	
 }
 
+nav {
+	text-align: center;
+}
 #navlogo {
-	height: 10px;
-	transform: rotate(90deg);
+	width: 1.5%;
+	transform: rotate(-90deg);
 }
 
 footer {
