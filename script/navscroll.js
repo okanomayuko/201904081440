@@ -1,6 +1,6 @@
 $(function() {
   var $win = $(window),
-      $cloneNav = $('nav').clone().addClass('clone-nav').appendTo('body'),
+      $cloneNav = $('nav').addClass('clone-nav').appendTo('body'),
       showClass = 'is-show';
 
   $win.on('load scroll', function() {
