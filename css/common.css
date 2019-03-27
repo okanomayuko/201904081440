@@ -29,6 +29,7 @@ h1 {
 }
 
 nav {
+	display: flex;
 	height: 50px;
 	background: #fff;
 	position: fixed;
@@ -39,7 +40,8 @@ nav {
 	transition: .3s;
 }
 #navlogo {
-	width: 200px;
+	width: 169px;
+	margin: auto; 
 }
 .clone-nav {
   transform: translateY(-100%);
