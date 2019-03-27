@@ -48,7 +48,7 @@ nav {
 .is-show {
   transform: translateY(0);
 }
-.navbox{
+.nav_box{
     display: flex;
     margin: auto; 
     align-items: flex-end;
@@ -60,6 +60,15 @@ section {
 	min-height: 100vh;
 	background: pink;
 }
+
+.content_box {
+	display: flex;
+}
+.content_item {
+
+}
+
+
 footer {
 	background: #ECEADE;
 	text-align: center;
