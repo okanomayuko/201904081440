@@ -60,12 +60,13 @@ section {
 	min-height: 100vh;
 	background: pink;
 }
-
 .content_box {
 	display: flex;
 }
 .content_item {
-
+	width: 100px;
+	height: 100px;
+	background: #fff;
 }
 
 
