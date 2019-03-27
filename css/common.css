@@ -20,11 +20,11 @@ main {
 h1 {
 	display: none;
 }
-.toplogo path {
+#toplogo path {
 	color: #fff;
 	fill: currentColor;
 }
-.toplogo {
+#toplogo {
 	width: 2.3%;
 	height: auto;	
 }
