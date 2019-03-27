@@ -40,9 +40,7 @@ nav {
 	transition: .3s;
 }
 #navlogo {
-	display: block;
 	width: 169px;
-	margin: auto; 
 }
 .clone-nav {
   transform: translateY(-100%);
@@ -52,6 +50,8 @@ nav {
 }
 .navbox{
     display: flex;
+    margin: auto; 
+
 }
 
 
