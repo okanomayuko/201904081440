@@ -9,19 +9,27 @@
 	<script src="script/desvg.js"></script>
 	<script>
 		$(function(){
-		  deSVG('.toplogo', true);
-		});
-		$(function(){
-		    var now_hour = new Date().getHours();
-		    if ( 0 <= now_hour && now_hour <= 6 ){
-		        $('main').css('background','red');
-		    } else if ( 7 <= now_hour && now_hour <= 12 ) {
-		        $('main').css('background','blue');
-		    } else if ( 13 <= now_hour && now_hour <= 17) {
-		        $('main').css('background','green');
-		    } else if ( 18 <= now_hour && now_hour <= 23) {
-		        $('main').css('background','yellow');
+		 	deSVG('.toplogo', true);
+			$('head').append(
+				'<style>body{display:none;}'
+				);
+				$(window).on("load", function() {
+				$('body').delay(600).fadeIn("slow");
+			});
+			var now_hour = new Date().getHours();
+			    if ( 0 <= now_hour && now_hour <= 6 ){
+			        $('main').css('background','red');
+			    } else if ( 7 <= now_hour && now_hour <= 12 ) {
+			        $('main').css('background','blue');
+			    } else if ( 13 <= now_hour && now_hour <= 17) {
+			        $('main').css('background','green');
+			    } else if ( 18 <= now_hour && now_hour <= 23) {
+			        $('main').css('background','yellow');
 		    }
+		});
+
+		$(function(){
+		    
 		});
 	</script>
 	<link rel="stylesheet" href="css/reset.css" />
