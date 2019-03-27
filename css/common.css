@@ -19,3 +19,9 @@ h1 {
 	width: 2.3%;
 	height: auto;	
 }
+
+footer {
+	background: #ECEADE;
+	align-items: center;
+	font-size: 0.7em;
+}
