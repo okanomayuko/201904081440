@@ -4,7 +4,7 @@ $(function() {
       showClass = 'is-show';
 
   $win.on('load scroll', function() {
-    var value = $(this).fade();
+    var value = $(this).fadeIn();
     if ( value > 500 ) {
       $cloneNav.addClass(showClass);
     } else {
