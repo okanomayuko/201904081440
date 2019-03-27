@@ -30,6 +30,8 @@ h1 {
 
 nav {
 	text-align: center;
+	height: 50px;
+	background: #fff;
 }
 #navlogo {
 	width: 1.5%;
