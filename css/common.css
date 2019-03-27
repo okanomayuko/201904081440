@@ -29,6 +29,10 @@ h1 {
 	height: auto;	
 }
 
+#navlogo {
+	transform: rotate(90deg)
+}
+
 footer {
 	background: #ECEADE;
 	text-align: center;
