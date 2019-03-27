@@ -5,7 +5,7 @@ $(function() {
 
   $win.on('load scroll', function() {
     var value = $(this).scrollTop();
-    if ( value > window ) {
+    if ( value > 700 ) {
       $cloneNav.addClass(showClass);
     } else {
       $cloneNav.removeClass(showClass);
