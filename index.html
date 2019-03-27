@@ -11,21 +11,23 @@
 		$(function(){
 		 	deSVG('.toplogo', true);
 			$('head').append(
-				'<style>body{display:none;}'
+				'<style>body{display:none;} .toplogo{display:none}'
 				);
 				$(window).on("load", function() {
-				$('body').delay(600).fadeIn("1000");
+				$('body').delay(100).fadeIn("1000");
 				$('.toplogo').delay(2000).fadeIn("1000");
 			});
 			var now_hour = new Date().getHours();
-			    if ( 0 <= now_hour && now_hour <= 6 ){
+			    if ( 0 <= now_hour && now_hour <= 4 ){
 			        $('main').css('background','red');
-			    } else if ( 7 <= now_hour && now_hour <= 12 ) {
+			    } else if ( 5 <= now_hour && now_hour <= 10 ) {
 			        $('main').css('background','blue');
-			    } else if ( 13 <= now_hour && now_hour <= 17) {
+			    } else if ( 11 <= now_hour && now_hour <= 15) {
 			        $('main').css('background','green');
-			    } else if ( 18 <= now_hour && now_hour <= 23) {
+			    } else if ( 16 <= now_hour && now_hour <= 19) {
 			        $('main').css('background','yellow');
+			    } else if ( 20 <= now_hour && now_hour <= 23) {
+			        $('main').css('background','pink');
 		    }
 		});
 
