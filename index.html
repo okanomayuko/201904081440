@@ -11,11 +11,11 @@
 		$(function(){
 		 	deSVG('.toplogo', true);
 			$('head').append(
-				'<style>body{display:none;} .toplogo{display:none;}'
+				'<style>body{display:none;}'
 				);
 				$(window).on("load", function() {
-				$('body').delay(600).fadeIn("2000");
-				$('.toplogo').delay(600).fadeIn("5000");
+				$('body').delay(600).fadeIn("1000");
+				$('.toplogo').delay(2000).fadeIn("1000");
 			});
 			var now_hour = new Date().getHours();
 			    if ( 0 <= now_hour && now_hour <= 6 ){
