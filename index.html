@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script src="script/desvg.js"></script>
+	<script src="script/navscroll.js"></script>
 	<script>
 		$(function(){
 		 	deSVG('#toplogo', true);
@@ -29,17 +30,6 @@
 			//     } else if ( 20 <= now_hour && now_hour <= 23) {
 			//         $('main').css('background','pink');
 		 //    }
-		var $win = $(window),
-		    $cloneNav = $('nav').clone().addClass('clone-nav').appendTo('body'),
-		    showClass = 'is-show';
-		    $win.on('load scroll', function() {
-		    	var value = $(this).scrollTop();
-		    		if ( value > 700 ) {
-		    			$cloneNav.addClass(showClass);
-		    		} else {
-		    			$cloneNav.removeClass(showClass);
-		    		}
-		    	});
 		});
 	</script>
 	<link rel="stylesheet" href="css/reset.css" />
