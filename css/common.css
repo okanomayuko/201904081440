@@ -24,6 +24,7 @@ h1 {
 	fill: currentColor;
 }
 #toplogo {
+	display: block;
 	width: 2.3%;
 	height: auto;	
 }
