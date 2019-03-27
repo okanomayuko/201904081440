@@ -1,5 +1,5 @@
 $(function () {
-	var flexCards = $(".flex_cards");
+	var flexCards = $(".content_box");
 	flexCards.each(function () {
 		var flexCard = $(this).children('li');
 		var colNum = parseInt($(this).width() / flexCard.width());
