@@ -50,6 +50,9 @@ nav {
   transform: translateY(0);
 }
 
+section {
+	min-height: 100vh;
+}
 footer {
 	background: #ECEADE;
 	text-align: center;
