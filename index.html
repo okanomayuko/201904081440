@@ -29,6 +29,17 @@
 			//     } else if ( 20 <= now_hour && now_hour <= 23) {
 			//         $('main').css('background','pink');
 		 //    }
+		var $win = $(window),
+		    $cloneNav = $('nav').clone().addClass('clone-nav').appendTo('body'),
+		    showClass = 'is-show';
+		    $win.on('load scroll', function() {
+		    	var value = $(this).scrollTop();
+		    		if ( value > 700 ) {
+		    			$cloneNav.addClass(showClass);
+		    		} else {
+		    			$cloneNav.removeClass(showClass);
+		    		}
+		    	});
 		});
 	</script>
 	<link rel="stylesheet" href="css/reset.css" />
@@ -40,7 +51,7 @@
 		<h1>OKANOMAYUKO</h1>
 		<img id="toplogo" src="img/okanomayuko.svg" alt="OKANO MAYUKO">
 	</main>
-	<nav>
+	<nav class="clone-nav is-show">
 		<a href="#top"><img id="navlogo" src="img/okanomayuko.svg" alt="OKANO MAYUKO"></a>
 	</nav>
 	<footer>
