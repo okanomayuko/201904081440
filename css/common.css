@@ -63,6 +63,7 @@ section {
 article {
 	width: 970px;
 	margin: 0 auto;
+	padding: 100px 0;
 }
 .content_box {
 	list-style: none;
