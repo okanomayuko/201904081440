@@ -24,7 +24,7 @@ h1 {
 	fill: currentColor;
 }
 #toplogo {
-	width: 2.3%;
+	min-width: 2.3%;
 	height: auto;	
 }
 
@@ -52,7 +52,6 @@ nav {
     display: flex;
     margin: auto; 
     align-items: flex-end;
-
 }
 
 
@@ -77,7 +76,6 @@ article {
 	background: #fff;
 	margin: 20px;
 }
-
 
 footer {
 	background: #ECEADE;
