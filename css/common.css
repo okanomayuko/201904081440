@@ -16,17 +16,17 @@ main {
 	100%{background-position:0% 50%}
 	}
 
-.lineO1,
-.lineK2,
-.lineA3,
-.lineN4,
-.lineO5,
-.lineM6,
-.lineA7,
-.lineY8,
-.lineU9,
-.lineK10,
-.lineO11 {    
+#lineO1,
+#lineK2,
+#lineA3,
+#lineN4,
+#lineO5,
+#lineM6,
+#lineA7,
+#lineY8,
+#lineU9,
+#lineK10,
+#lineO11 {    
 	stroke:#333;
 	fill:#333;
 	fill-opacity: 0;
