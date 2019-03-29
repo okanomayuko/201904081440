@@ -27,14 +27,14 @@ main {
 #lineU9,
 #lineK10,
 #lineO11 {    
-	stroke:#333;
+	stroke:#ccc;
 	fill:#333;
 	fill-opacity: 0;
 	stroke-width:1;
-	stroke-dasharray: 3000;
+	stroke-dasharray: 5000;
 	stroke-dashoffset:3000;
-	-webkit-animation: LINE 8s ease-in 0s forwards;
-	animation: LINE 8s ease-in 0s forwards;
+	-webkit-animation: LINE 8s ease-in 1s forwards;
+	animation: LINE 8s ease-in 1s forwards;
 }
 @keyframes LINE{
 	0%{stroke-dashoffset:3000;fill-opacity: 0;}
