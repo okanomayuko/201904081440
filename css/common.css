@@ -5,7 +5,7 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* background: linear-gradient(45deg, rgba(255,229,229,.8), rgba(229,255,242,.8), rgba(253,255,229,.8)); */
+	background: linear-gradient(45deg, rgba(255,229,229,.8), rgba(229,255,242,.8), rgba(253,255,229,.8)); 
 	background-size: 600% 600%;
 	animation: AnimationName 60s ease infinite;
 	}
