@@ -16,13 +16,46 @@ main {
 	100%{background-position:0% 50%}
 	}
 
+.lineO1,
+.lineK2,
+.lineA3,
+.lineN4,
+.lineO5,
+.lineM6,
+.lineA7,
+.lineY8,
+.lineU9,
+.lineK10,
+.lineO11 {    
+	stroke:#333;
+	fill:#333;
+	fill-opacity: 0;
+	stroke-width:1;
+	stroke-dasharray: 3000;
+	stroke-dashoffset:3000;
+	-webkit-animation: LINE 8s ease-in 0s forwards;
+	animation: LINE 8s ease-in 0s forwards;
+}
+@keyframes LINE{
+	0%{stroke-dashoffset:3000;fill-opacity: 0;}
+	30% {fill-opacity: 0;}
+	35% {fill-opacity: 1;}
+	100%{stroke-dashoffset:0;fill-opacity: 1;}
+}
+@-webkit-keyframes LINE{
+	0%{stroke-dashoffset:3000;fill-opacity: 0;}
+	30% {fill-opacity: 0;}
+	35% {fill-opacity: 1;}
+	100%{stroke-dashoffset:0;fill-opacity: 1;}
+}
+
 h1 {
 	display: none;
 }
-#toplogo path {
+/*#toplogo path {
 	color: #000;
 	fill: currentColor;
-}
+}*/
 #toplogo {
 	min-width: 2.3%;
 	height: auto;	
