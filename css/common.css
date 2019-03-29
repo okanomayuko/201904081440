@@ -106,7 +106,8 @@ article {
 .content_item {
 	width: 200px;
 	height: 200px;
-	background: #fff;
+	background: none;
+	border: 1px solid #ccc;
 	margin: 20px;
 }
 
