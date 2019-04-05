@@ -1,11 +1,5 @@
-main {
-	width: 100vw;
-	height: auto;
-	min-height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: linear-gradient(45deg, rgba(255,229,229,.8), rgba(229,255,242,.8), rgba(253,255,229,.8)); 
+body {
+		background: linear-gradient(45deg, rgba(255,229,229,.8), rgba(229,255,242,.8), rgba(253,255,229,.8)); 
 	background-size: 600% 600%;
 	animation: AnimationName 60s ease infinite;
 	}
@@ -14,6 +8,15 @@ main {
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
+	}
+
+main {
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	}
 
 #lineO1,
