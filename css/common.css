@@ -118,8 +118,8 @@ article {
 
 footer {
 	text-align: center;
+    font-size: 0.6em;
     color: #000;
-    size: 0.6em;
     max-width: 970px;
     margin: 0 auto;
     padding: 10px;
