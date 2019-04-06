@@ -118,10 +118,11 @@ article {
 
 footer {
 	text-align: center;
-	color: #fff;
-    font-size: 0.6em;
+    color: #000;
+    size: 0.6em;
     max-width: 970px;
-	margin: 0 auto;
-    padding: 20px;
-    border-top: dotted 1px #fff;
+    margin: 0 auto;
+    padding: 10px;
+    border-top: dotted 1px #000;
+    opacity: 0.1;
 }
