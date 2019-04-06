@@ -76,7 +76,8 @@ nav {
 	transition: .3s;
 }
 #navlogo {
-	height: 20vh;
+	width: 30px;
+	height: auto;
 }
 .clone-nav {
   transform: translateX(-100vw);
